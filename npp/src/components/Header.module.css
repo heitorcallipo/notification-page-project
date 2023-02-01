@@ -1,0 +1,31 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.notifNum {
+  display: flex;
+  flex-direction: row;
+}
+
+.notifNum p {
+  background-color: rgb(29, 29, 136);
+  color: #fff;
+  border: 1px solid none;
+  border-radius: 9px;
+  width: 34px;
+  height: 26px;
+  text-align: center;
+  margin: 1.5rem 0;
+}
+
+.header h1 {
+  font-size: 1.5em;
+  margin: 0.8em;
+}
+
+.btnMark {
+    font-size: 1em;
+    margin: 1.4em;
+}

@@ -1,0 +1,10 @@
+.NotifPage {
+    background-color: #FFF;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid none;
+    border-radius: 10px;
+    width: 750px;
+    height: 730px;
+    min-width: 375px;
+}

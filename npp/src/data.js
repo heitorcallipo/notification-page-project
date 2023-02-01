@@ -1,31 +1,31 @@
-export default [
+const data = [
     {
         id: "1",
-        avatar: "./components/images/avatar-mark-webber.webp",
+        avatar: "./images/avatar-mark-webber.png",
         name: "Mark Webber",
         action: "reacted to your recent post",
-        post: "My first tournament today!",
+        post: "My first tournament today! ·",
         time: "1m ago"
     },
     {
         id: "2",
-        avatar: "./components/components/images/avatar-angela-gray.webp",
+        avatar: "./images/avatar-angela-gray.png",
         name: "Angela Gray",
-        action: "Followed you",
+        action: "Followed you ·",
         post: "",
         time: "5m ago"
     },
     {
         id: "3",
-        avatar: "./components/images/avatar-jacob-thompson.webp",
+        avatar: "./images/avatar-jacob-thompson.png",
         name: "Jacob Thompson",
         action: "has joined your group",
-        post: "Chess club",
+        post: "Chess club ·",
         time: "1 day ago"
     },
     {
         id: "4",
-        avatar: "./components/images/avatar-rizky-hasanuddin.webp",
+        avatar: "./images/avatar-rizky-hasanuddin.png",
         name: "Rizky Hasanuddin",
         action: "sent you a private message",
         time: "5 days ago",
@@ -33,7 +33,7 @@ export default [
     },
     {
         id: "5",
-        avatar: "./components/images/avatar-kimberly-smith.webp",
+        avatar: "./images/avatar-kimberly-smith.png",
         name: "Kimberly Smith",
         action: "commented on your picture",
         post: "./components/images/image-chess.webp",
@@ -41,7 +41,7 @@ export default [
     },
     {
         id: "6",
-        avatar: "./components/images/avatar-nathan-peterson.webp",
+        avatar: "./images/avatar-nathan-peterson.png",
         name: "Nathan Peterson",
         action: "reacted to your recent post",
         post: "5 end-game strategies to increase your win rate",
@@ -49,10 +49,12 @@ export default [
     },
     {
         id: "7",
-        avatar: "./components/images/avatar-anna-kim.webp",
+        avatar: "./images/avatar-anna-kim.png",
         name: "Anna Kim",
         action: "left the group",
         post: "Chess Club",
         time: "2 weeks ago"
     },
 ]
+
+export default data

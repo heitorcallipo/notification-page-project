@@ -1,26 +1,33 @@
 .notif {
-    display: flex;
-    flex-direction: column;
-    border: 1px solid none;
-    border-radius: 10px;
-    margin: 0 1.5em .9em;
-    background-color: hsl(211, 68%, 94%);
+  display: flex;
+  flex-direction: column;
+  border: 1px solid none;
+  border-radius: 10px;
+  margin: 0 1.5em 0.9em;
+  background-color: hsl(211, 68%, 94%);
 }
 
 .notif img {
-    display: flex;
-    width: 3.5em;
-    position: relative;
-    left: 1em;
-    top: 1.1em;
+  display: flex;
+  width: 3.5em;
+  position: relative;
+  left: 1em;
+  top: 1.1em;
 }
 
 main {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    margin: auto 2em;
-    font-size: .9em;
-    position: relative;
-    bottom: 1.5em;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: auto 2em;
+  font-size: 0.9em;
+  position: relative;
+  bottom: 1.5em;
 }
+
+.newNot {
+  font-size: .4em;
+  position: relative;
+  bottom: .4em;
+}
+

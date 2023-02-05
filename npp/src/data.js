@@ -5,7 +5,6 @@ const data = [
     name: "Mark Webber",
     action: "reacted to your recent post",
     post: "My first tournament today!",
-    newNotif: "&#128308;",
     time: "1m ago",
   },
   {
@@ -13,7 +12,6 @@ const data = [
     avatar: "./images/avatar-angela-gray.png",
     name: "Angela Gray",
     action: "Followed you",
-    newNotif: "",
     post: "",
     time: "5m ago",
   },
@@ -23,7 +21,6 @@ const data = [
     name: "Jacob Thompson",
     action: "has joined your group",
     post: "Chess club",
-    newNotif: "&#128308;",
     time: "1 day ago",
   },
   {

@@ -26,8 +26,14 @@ main {
 }
 
 .newNot {
-  font-size: .4em;
+  font-size: .5em;
   position: relative;
-  bottom: .4em;
+  bottom: .3em;
+  left: .3em;
+}
+
+.time {
+  display: flex;
+  flex-direction: column;
 }
 

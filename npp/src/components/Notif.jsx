@@ -4,7 +4,7 @@ const Notif = (props) => {
   return (
     <div className={styles.notif}>
       <div>
-        <img src={props.avatar} alt="avatar" />
+        <img src={props.avatar} alt="avatarr" />
       </div>
       <main>
         <p>
